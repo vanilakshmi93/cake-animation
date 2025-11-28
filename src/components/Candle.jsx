@@ -7,6 +7,7 @@ const Candle = ({ left }) => {
   const blowStartRef = useRef(null); // Keep track of blow timing
 
   useEffect(() => {
+    //
     let audioContext = null;
     let mic = null;
     let analyser = null;
